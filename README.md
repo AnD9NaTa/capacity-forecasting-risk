@@ -1,30 +1,36 @@
 # Industrial Capacity Forecasting & Risk Simulation
 
-## 📌 Overview
+## Overview
 This project combines time series forecasting and Monte Carlo simulation to estimate industrial capacity risk and support decision-making under uncertainty.
 
-## 🎯 Objective
+## Objective
 Forecast future demand and quantify the probability of exceeding capacity constraints.
 
-## ⚙️ Methodology
+## Data
+The dataset is synthetically generated to simulate industrial demand.
+
+- demand.csv: ready-to-use dataset
+- generate_data.py: script to reproduce the dataset
+  
+## Methodology
 - ARIMA time series forecasting
 - Monte Carlo simulation for uncertainty modeling
 - Risk estimation based on simulated scenarios
 
-## 📊 Results
+## Results
 - Demand forecast for next 30 periods
 - Probability distribution of future demand
 - Overload risk estimation
 
-## 🧠 Business Impact
+## Business Impact
 Enables data-driven planning decisions by quantifying uncertainty and providing probabilistic risk metrics.
 
-## 🛠️ Tech Stack
+## Tech Stack
 - Python (pandas, numpy, statsmodels)
 - Matplotlib
 - Jupyter Notebook
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 pip install -r requirements.txt
